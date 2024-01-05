@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;1,100;1,500&family=Roboto+Condensed:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;color: white;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(120deg, rgba(209, 158, 64, 0.869), rgba(224, 50, 50, 0.59));
+}
+
+nav {
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0vw 2vw;
+    position: fixed;
+    z-index: 100;
+}
+
+nav h1 {
+    font-size: 2vw;
+    font-weight: 100;
+    
+}
+
+.nav-mid a {
+    text-decoration: none;
+    font-size: 1.5vw;
+    
+}
+
+.nav-right i {
+    font-size: 2vw;
+    
+}
+
+.nav-mid {
+    display: flex;
+    gap: 2vw;
+}
+
+.hero-1 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pepsi {
+    position: absolute;
+    z-index: 2;
+    height: 70%;
+    top: 25%;
+}
+
+#fanta {
+    height: 60%;
+    width: 40%;
+    position: absolute;
+    z-index: 2;
+    left: 5%;
+    top: 31%;
+
+}
+
+#coke {
+    height: 60%;
+    position: absolute;
+    z-index: 2;
+    left: 63%;
+    top: 30%;
+}
+
+#lem-pepsi {
+    z-index: 1;
+    height: 30%;
+    position: absolute;
+    top: 15%;
+    left: 41.6%;
+}
+
+#lem-coke {
+    z-index: 1;
+    height: 30%;
+    position: absolute;
+    top: 15%;
+    right: 12%;
+}
+
+#lem-fanta {
+    z-index: 1;
+    height: 30%;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+
+.hero-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 95vh;
+    width: 100%;
+    background-color: rgb(100, 39, 39);
+}
+
+.hero-2 h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+.boxes {
+    height: 80%;
+    width: 30%;
+    border: 1px solid white;
+    border-radius: 20%;
+}
+.footer{
+    height: 5vh;
+    width: 100%;
+    text-align: center;
+    text-transform: lowercase;
+    background-color: rgb(100, 39, 39);
+}
